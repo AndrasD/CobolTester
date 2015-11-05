@@ -37,4 +37,5 @@
 		<finalName>CobolTester</finalName>
 	</build>
 	<version>0.0.1</version>
+	<name>CobolTester</name>
 </project>
