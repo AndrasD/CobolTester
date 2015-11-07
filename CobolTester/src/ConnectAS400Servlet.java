@@ -19,8 +19,6 @@ public class ConnectAS400Servlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("application/json");
-	    PrintWriter out = response.getWriter();
-	    out.println("{");
 	    
 	    Connection conn = null;
 	    try {
